@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="#fbedcb"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:paddingTop="0px"
+		android:paddingBottom="0px"
+		android:gravity="center_vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="35sp">
+		<Button		
+			android:id="@+id/listbtn"
+			android:paddingTop="0sp" 
+			android:paddingBottom="4sp" 
+			android:text="@string/listbtn"
+			android:layout_height="30dp"
+			android:textSize="18sp" 
+			android:layout_width="wrap_content"
+			/>
+		<CheckBox
+			android:textColor="#000000"
+			android:id="@+id/toggletrack"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:checked="true"
+			android:paddingTop="0px"
+			android:layout_marginTop="0px"
+			android:text="@string/trackl" />
+		<CheckBox
+			android:textColor="#000000"
+			android:id="@+id/togglefri"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:checked="true"
+			android:text="@string/fril" />
+		<CheckBox
+			android:textColor="#000000"
+			android:id="@+id/togglesat"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:text="@string/satl" />
+	</LinearLayout>
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:enabled="true"
+		android:clickable="true"
+		android:apiKey="0YIpPWawgFawYe8OAOXPwZenickEhhimP7cDiqg" />
+	<TextView
+		android:textColor="#000000"
+		android:id="@+id/status"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/ysd" />
+</LinearLayout>

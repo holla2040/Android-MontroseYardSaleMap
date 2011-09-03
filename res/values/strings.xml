@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Montrose Yard Sale Map</string>
+    <string name="ysd"></string>
+    <string name="trackl">Track</string>
+    <string name="fril">Fri</string>
+    <string name="satl">Sat</string>
+    <string name="listbtn">List</string>
+    <string name="mapbtn">Map</string>
+</resources>
